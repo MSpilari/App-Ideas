@@ -1,6 +1,7 @@
 # Objetivo
 
- Este repositório foi criado com base neste aqui: https://github.com/florinpop17/app-ideas
+ Este repositório foi criado com base neste [Repositório]. 
+ (https://github.com/florinpop17/app-ideas).
 
 Onde colocarei farei estes apps como forma de complemento dos meus estudos e para mostrar meu conhecimento.
 
