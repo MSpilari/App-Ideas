@@ -3,6 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     background: linear-gradient(to right, #000000, #434343);
+    font-family: 'Pangolin', cursive ;
 }
 
 header {
@@ -12,7 +13,6 @@ header {
 
 #init{
     display: flex;
-    font-family: 'Pangolin', cursive ;
     justify-content: center;
     color: aliceblue;
     font-size: 100px;
@@ -47,7 +47,6 @@ span.display {
     font-size: 2.2em;
     padding-right: 20px;
     color: aliceblue;
-    font-family: 'Pangolin', cursive ;
 }
 
 .buttons {
@@ -71,7 +70,6 @@ button {
     background-color: rgba(0, 0, 0, 0.123);
     border: 0.2px solid white;
     color: white;
-    font-family: 'Pangolin', cursive ;
     font-size: 1.2em;
     outline: 0;
 }
