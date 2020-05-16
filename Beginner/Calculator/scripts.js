@@ -38,6 +38,7 @@ function countingNumbers() {
 }
 
 function backspace (){
+    counter -= 1
     let arr = display.innerHTML
     let narr = arr.slice(0, arr.length -1)
     if(narr == []) {
@@ -49,6 +50,7 @@ function backspace (){
 }
 
 function allClear() {
+    counter = 0
     pResults[2] = ''
     pResults[3] = ''
     pResults[4] = ''

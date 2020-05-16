@@ -6,9 +6,26 @@ body {
     font-family: 'Pangolin', cursive ;
 }
 
-header {
-    color: wheat;
-    width: inherit;
+ul{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    color: white;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 #init{
@@ -31,7 +48,7 @@ main {
     width: 250px;
     border: solid 2px white;
     border-radius: 5px;
-    box-shadow: 5px 2px white;
+    box-shadow: 32px 28px 13px -4px white;
 }
 
 div.display {
@@ -72,6 +89,10 @@ button {
     color: white;
     font-size: 1.2em;
     outline: 0;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .operator {
