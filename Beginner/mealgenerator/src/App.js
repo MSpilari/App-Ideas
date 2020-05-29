@@ -1,16 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+
+import MyHeader from './Components/Header'
+import './App.css'
 
 function App() {
-  const [food, setFood] = useState("Chicken")
-
-  useEffect()
-
+    
   return (
-    <div className="App">
-      <h1>Hello World !</h1>
-      <h2>{food}</h2>
-    </div>
-  );
+      <div className="App">
+        <MyHeader />        
+      </div>
+    );
 }
 
 export default App;

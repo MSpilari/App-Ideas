@@ -1,0 +1,30 @@
+.Header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    min-height: 100px;
+    max-height: 100vh;
+}
+
+.title{
+    margin: 15px;
+    font-size: 50px;
+}
+p {
+    margin: 15px;
+    font-size: 20px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: tomato;
+    font-weight: bold;
+    border-radius: 15px;
+    border-style: groove;
+    outline: none;
+}
+
+button:active{
+    background-color:rgb(255, 99, 71, 0.9) ;
+}
