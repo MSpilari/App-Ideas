@@ -1,5 +1,8 @@
 import React from 'react'
 
+import PhotoName from './PhotoName'
+import Ingredients from './Ingredients'
+import Video from './Video'
 import '../Layouts/Body.css'
 
 function Body(props){
@@ -17,21 +20,20 @@ function Body(props){
   
     return (
         <div className='allItems'>
-            <div className = 'photoNameInst'>
-                <img id='photo' src={strMealThumb} alt='' />
-                <h1 id='mealName'>{strMeal}</h1>
-                <p id='instructions'>Instructions: {strInstructions}</p>
-            </div>
-            <div className='CategoAreaIngred'>
-                <p className='others'>Category: {strCategory}</p>
-                <p className='others'>Area: {strArea}</p>
-                <p className='others'>Tags: {strTag}</p>
-                <ul id='list'><label>Ingredients:</label>{finalIngredients}</ul>
-            </div>
-            <div className= 'videoDiv'>
-            <iframe title='Video Recipe' width='420' height='315'
-                        src={`https://www.youtube.com/embed/${strYoutube.slice(-11)}`} />
-            </div>
+            <PhotoName 
+                    photo={strMealThumb}
+                    name={strMeal}
+                    instructions={strInstructions}
+            />
+            
+            <Ingredients 
+                    listOfIngre={finalIngredients}
+                    category={strCategory}
+                    area={strArea}
+                    tag={strTag}
+            />            
+            
+            <Video url={strYoutube}/>
         </div>
         
     )
