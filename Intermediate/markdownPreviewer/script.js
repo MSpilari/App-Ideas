@@ -2,7 +2,6 @@ const markDown = document.querySelector('textarea[name="MarkDown"]')
 const html = document.querySelector('textarea[name="HTML"]')
 const selectType = document.querySelector('select[name="typeText"]')
 const copyButton = document.querySelectorAll('button.CopyButton')
-const baloon = document.querySelector('h1.tooltip')
 
 function whatsTheButton(button){
     button.addEventListener('click', (event) => {
@@ -24,6 +23,7 @@ function isTyping(){
 }
 
 function tooltipShow(button){
+    const baloon = document.querySelector('h1.tooltip')
     button.addEventListener('mouseenter', () => baloon.classList.add('tooltipShow'))
     button.addEventListener('mouseout', () => baloon.classList.remove('tooltipShow'))
 }
