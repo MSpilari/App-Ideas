@@ -5,10 +5,13 @@
 Onde colocarei estes apps como forma de complemento dos meus estudos e para mostrar meu conhecimento.
 
 ## Organização
+
 Assim como no repositório original tentarei, organizar os apps por pastas.
 
 Começando por:
-- [ ] Beginner
-- [ ] Intermediate
-- [ ] Advanced
 
+- [ ] Beginner
+
+- [ ] Intermediate
+
+- [ ] Advanced

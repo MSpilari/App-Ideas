@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkDown Previewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MarkDown Previewer</h1>
+        <h6>Write the MarkDown on the left side and see the magic hapenning</h6>
+    </header>
+    <main>
+        <div id="MarkDownContainer">
+            <h1>MarkDown</h1>
+            <textarea name="MarkDown"></textarea>
+            <button class="CopyButton" name="MarkDown">Copy Text</button>
+        </div>
+        <div id="HTMLContainer">
+            <h1>HTML</h1>
+            <textarea name="HTML" readonly></textarea>
+            <button class="CopyButton" name="HTML">Copy Text</button>
+        </div>
+    </main>
+    <h1 class="tooltip">Copy Text</h1>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

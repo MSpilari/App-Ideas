@@ -1,0 +1,81 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+h1, h6{
+    margin: 0;
+}
+
+h6{
+    font-size: 18px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+#MarkDownContainer, 
+#HTMLContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    width: 619px;
+    height: 555px;
+    background-color: rgb(224, 215, 215);
+}
+
+textarea[name="MarkDown"],
+textarea[name="HTML"]{
+    font-size: 18px;
+    width: 90%;
+    height: 90%;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.CopyButton{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;   
+}
+
+.tooltip{
+    position: relative;
+    font-size: 1.1em;
+    display: inline-block;
+    bottom: 55px;
+    left: 269px;
+    width: 140px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #555;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltipShow{
+    opacity: 1;
+}
